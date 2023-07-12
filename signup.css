@@ -10,7 +10,7 @@ body {
   display: grid;
   place-items: center;
   background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-  font-family: "Euclid Circular A";
+
   text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -23,6 +23,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 position: relative;
+width: min-content;
 }
 .swiper,.swiper-slide {
     width: 100% !important;
@@ -88,6 +89,13 @@ button.secondary {
   color: #7e7d8a;
 }
 button[type="submit"] {
-  margin-bottom: 8px;
+  margin-bottom: 1rem;
 }
-
+@media (max-width: 500px) {
+  .card,.swiper,.swiper-slide {
+  height: 100%;
+  width:95%; 
+}body{
+  display:flex;
+}
+}
