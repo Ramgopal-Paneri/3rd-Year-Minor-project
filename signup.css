@@ -1,0 +1,93 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  font-family: "Euclid Circular A";
+  text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card {
+  margin: auto;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+position: relative;
+}
+.swiper,.swiper-slide {
+    width: 100% !important;
+  }
+  .swiper{
+    outline: .5rem slategray double;
+  border: #69687a .8rem dashed;
+border-radius: .5rem; 
+}
+img {
+  width: 10rem;
+  height: auto;
+  object-fit: contain;
+margin-top: 16px;
+}
+h2 {
+  color: #2f2e41;
+}
+h3 {
+  color: #69687a;
+  font-weight: 400;
+  font-size: 14px;
+  align-self: stretch;
+}
+input,
+button {
+  display: block;
+  height: 2rem;
+  width:calc(100%-10%);
+  margin: auto;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  text-align: center;
+}
+input {
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.16);
+  padding: 12px;
+  margin-bottom: .2rem;
+  caret-color: #2E1A35;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.24);
+}
+button {
+  background: #313224;
+  color: #f9f9f9;
+  border: 0;
+  cursor: pointer;
+  transition: 0.175s;
+  margin-bottom: 2.2rem;
+  margin-top: 1.2rem;
+}
+button:disabled {
+  background: #e1e0e8;
+  color: #bbbac5;
+  cursor: not-allowed;
+}
+button.secondary {
+  background: transparent;
+  color: #7e7d8a;
+}
+button[type="submit"] {
+  margin-bottom: 8px;
+}
+

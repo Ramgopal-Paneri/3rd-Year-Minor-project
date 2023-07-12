@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+html,body{
+  scroll-behavior: smooth;
+}
+body:not(.navbar){
+  background: url(vector-1/istockphoto-613524686-1024x1024.jpeg) no-repeat;
+  background-size:100% 100%;
+background-attachment: scroll;
+}
