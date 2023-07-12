@@ -19,12 +19,7 @@ html,body{
   padding: 3px;
   border-radius: 3px;
 }
-@media (max-width: 500px) {
-  .cartAmount {
-    top: -6px;
-  right: 250px;
-  }
-}
+
 .shop {
   display: grid;
   grid-template-columns: repeat(4, 223px);
